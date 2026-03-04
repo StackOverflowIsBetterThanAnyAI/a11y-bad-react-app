@@ -1,0 +1,31 @@
+<!doctype html>
+<!--
+  ISSUE #1: Missing lang attribute on <html>
+  PROBLEM: Without a lang attribute, screen readers cannot select the correct
+           language profile for pronunciation. Browser translation tools may
+           also fail to detect the page language automatically.
+  FIX:     Add lang="en" (or the appropriate BCP 47 language tag) to the
+           <html> element: <html lang="en">
+  WCAG:    3.1.1 Language of Page (Level A)
+-->
+<html>
+  <head>
+    <!--
+      ISSUE #2: Non-descriptive page <title>
+      PROBLEM: <title>Website</title> gives users no meaningful information.
+               Screen reader users and keyboard users who switch tabs rely on
+               the page title to identify where they are. "Website" is the
+               same for every page and provides zero context.
+      FIX:     Use a descriptive, unique title that includes the page name and
+               site name, e.g. <title>Home — Acme Co.</title>
+      WCAG:    2.4.2 Page Titled (Level A)
+    -->
+    <title>Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
