@@ -184,7 +184,7 @@ function Products() {
              */}
             <img src={item.img} alt="img" />
             <div className="card-body">
-              <h6>{item.name}</h6>
+              <h5>{item.name}</h5>
               <p className="price">{item.price}</p>
               {/*
                * ISSUE #13: Icon-only button with no accessible label
@@ -257,9 +257,9 @@ function PricingTable() {
              * WCAG:    1.3.1 Info and Relationships (Level A)
              */}
             <th>Plan</th>
-            <th>Price</th>
-            <th>Storage</th>
-            <th>Support</th>
+            <th scope="col">Price</th>
+            <th scope="col">Storage</th>
+            <th scope="col">Support</th>
           </tr>
         </thead>
         <tbody>
@@ -503,8 +503,8 @@ function Modal({ onClose }) {
      *              <h3 id="modal-title">Special Offer!</h3>
      * WCAG:    4.1.2 Name, Role, Value (Level A)
      */
-    <div className="modal-backdrop" onClick={onClose}>
-      <div className="modal-box" onClick={e => e.stopPropagation()}>
+    <div className="modal-backdrop" onClick={onClose} onKeyDown={() => {}}>
+      <div className="modal-box">
         <h3>Special Offer!</h3>
         <p>Sign up today and get 10% off your first order.</p>
         {/*
@@ -567,7 +567,7 @@ function Footer() {
          *          2.4.4 Link Purpose in Context (Level A)
          */}
         <a href="#fb">📘</a>
-        <a href="#tw">🐦</a>
+        <a href="#tw" aria-label="Acme Co. on Twitter">🐦</a>
         <a href="#yt">▶️</a>
       </div>
       <p className="footer-copy">© 2024 Acme Co. All rights reserved.</p>
