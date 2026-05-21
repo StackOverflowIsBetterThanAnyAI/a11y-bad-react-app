@@ -36,4 +36,4 @@
 - 1x link instead of button
 - 1x content overlaps on mobile
 - 1x overflow x on mobile
-- 1x text outside a landmark
+- 8x text outside a landmark
