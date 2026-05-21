@@ -715,13 +715,13 @@ export default function App() {
              * FIX:     Replace <div id="home"> with <main id="main-content">.
              *          There should be exactly one <main> element per page.
              */}
-            <div id="home">
+            <main id="home">
                 <Hero />
                 <Products />
                 <PricingTable />
                 <VideoSection />
                 <ContactForm />
-            </div>
+            </main>
 
             <Footer />
 

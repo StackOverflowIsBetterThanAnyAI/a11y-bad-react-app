@@ -9,7 +9,7 @@
 - 1x dropdown cannot be activated by keyboard
 - 1x image has no alt
 - 1x image has bad alt
-- 8x insufficient color contrast
+- 10x insufficient color contrast
 - 1x bad heading order
 - 3x generic link text
 - 1x focussed items have no visible indicator
@@ -36,3 +36,4 @@
 - 1x link instead of button
 - 1x content overlaps on mobile
 - 1x overflow x on mobile
+- 1x text outside a landmark
