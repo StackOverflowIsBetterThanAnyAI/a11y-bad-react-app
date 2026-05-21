@@ -9,7 +9,7 @@
 - 1x dropdown cannot be activated by keyboard
 - 1x image has no alt
 - 1x image has bad alt
-- 7x insufficient color contrast
+- 8x insufficient color contrast
 - 1x bad heading order
 - 3x generic link text
 - 1x focussed items have no visible indicator
@@ -22,6 +22,7 @@
 - 3x required fields not communicated
 - 1x video autoplays
 - 1x video cannot be stopped
+- 1x video has no capions
 - 1x animation cannot be stopped
 - 1x site has no maxwidth
 - 1x details misses role and aria expanded
