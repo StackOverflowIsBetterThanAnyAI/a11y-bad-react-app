@@ -13,8 +13,8 @@
 - 1x bad heading order
 - 3x generic link text
 - 1x focussed items have no visible indicator
-- 3x insufficient color contrast when being focussed
-- 1x insufficient color contrast when being hovered
+- 4x insufficient color contrast when being focussed
+- 4x insufficient color contrast when being hovered
 - 1x font size is too small
 - 3x button has bad accessible text
 - 2x input has no label
